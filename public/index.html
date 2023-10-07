@@ -1,15 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>GlobeTrekkerX</title>
-</head>
-<body>
-    <div class="w-64 h-64 bg-red-500">
-        <h1 class="text-4xl text-white">GlobeTrekkerX</h1>
-    </div>
+  </head>
+  <body class="font-Lato">
+    <header>
+      <nav></nav>
+    </header>
+
+    <main>
+      <section class="w-full h-auto">
+        <div id="home">
+          <div class="w-full h-3/4">
+            <div class="w-full h-full flex flex-col absolute space-y-96 py-8 items-center">
+              <input class="outline-none p-3 pl-4 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" placeholder="Paris" type="search" name="" id="" />
+              <button class="w-48 rounded-full text-xl text-primary shadow-sm font-semibold p-4 bg-white transition-all duration-300 ease-in-out hover:bg-primary hover:text-white hover:-translate-y-1 hover:scale-100">Explore</button>
+            </div>
+            <div class="w-full h-full">
+              <img class="w-full h-full" src="./img/paris.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div id="recommended" class="p-6">
+          <p class="text-3xl font-semibold text-primary">Recommended</p>
+          <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 ">
+            <div class="card">
+              <div class="bg-bali"></div>
+              <div class="bg-secondary">
+                <p class="text-white">Bali</p>
+                <p class="text-white">Tropical paradise in Bali</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-capeTown"></div>
+              <div class="bg-white">
+                <p class="text-tertiary">Cape Town</p>
+                <p class="text-tertiary">Adventures in Cape Town</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-bali"></div>
+              <div class="bg-secondary">
+                <p class="text-white">Bali</p>
+                <p class="text-white">Tropical paradise in Bali</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-capeTown"></div>
+              <div class="bg-white">
+                <p class="text-tertiary">Cape Town</p>
+                <p class="text-tertiary">Adventures in Cape Town</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="featuredStays" class="px-6 h-full w-full">
+          <p class="text-3xl text-primary font-semibold pb-6 mt-6">Featured Stays</p>
+          <div class="w-full h-auto flex-col space-y-6 items-center justify-center">
+            <div class="featured-stay__card bg-kyoto">
+              <p class="text-white">Kyoto</p>
+              <p class="text-white">2 rooms, bathroom & kitchen</p>
+            </div>
+            <div class="featured-stay__card bg-venice">
+              <p class="text-white">Venice</p>
+              <p class="text-white">2 rooms, bathroom & kitchen</p>
+            </div>
+          </div>
+        </div>
+        <div id="faqs" class="w-full h-full">
+          <div class="w-full h-full px-6 flex-col space-y-4">
+            <p class="text-3xl text-primary font-semibold mt-6">FAQS</p>
+            <div>
+              <p class="text-xl font-medium text-primary">Cancellation policy</p>
+              <p class="text-base pt-2">For stays of less than one week, it is important to give 3 days notice. 
+                otherwise you will be sanctioned.
+              </p>
+            </div>
+            <div>
+              <p class="text-xl font-medium text-primary">Cancellation policy</p>
+              <p class="text-base pt-2">For stays of less than one week, it is important to give 3 days notice. 
+                otherwise you will be sanctioned.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="w-full h-auto bg-gray-50 text-gray-500 p-6 space-y-2">
+      <p class="text-lg">About</p>
+      <p class="text-sm ">Jobs</p>
+      <p class="text-sm ">Privacy policy</p>
+      <p class="text-sm ">Terms and conditions</p>
+      <p class="text-sm ">GlobeTrekkerX - 2023</p>
+      <i class="fa-brands fa-twitter text-cyan-400"></i>
+      <i class="fa-brands fa-instagram text-purple-400"></i>
+    </footer>
     
-</body>
+    
+  </body>
 </html>

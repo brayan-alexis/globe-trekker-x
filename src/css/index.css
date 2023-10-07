@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .card {
+    @apply w-48 h-64 shadow-md rounded-lg shrink-0 transition-all hover:-translate-y-4 hover:shadow-xl;
+  }
+  .card > div:first-child {
+    @apply w-full h-3/5 rounded-t-lg bg-cover;
+  }
+  .card > div:nth-child(2) {
+    @apply w-full h-2/5 px-4 flex items-start justify-center flex-col rounded-b-lg;
+  }
+  .card > div:nth-child(2) > p:first-child {
+    @apply text-lg font-bold;
+  }
+  .card > div:nth-child(2) > p:nth-child(2) {
+    @apply text-base;
+  }
+
+  .featured-stay__card {
+    @apply w-full h-96 bg-cover rounded-xl;
+  }
+  .featured-stay__card > p:first-child {
+    @apply text-3xl px-8 pt-8 pb-2 font-semibold;
+  }
+  .featured-stay__card > p:nth-child(2) {
+    @apply text-sm pl-8 mr-24;
+  }
+
+}
