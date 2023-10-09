@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth ">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,27 +16,27 @@
     />
     <title>GlobeTrekkerX</title>
   </head>
-  <body class="font-Lato">
+  <body class="font-Lato dark:bg-gray-900">
     <header>
-      <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between fixed z-10">
+      <nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between fixed z-10 dark:bg-gray-800">
         <div class="w-auto h-auto">
-          <p class="text-2xl font-bold text-primary">GlobeTrekkerX</p>
+          <p class="text-2xl font-bold text-primary dark:text-white">GlobeTrekkerX</p>
         </div>
         <div class="flex space-x-8">
-          <a href="#home" class="font-bold text-md text-primary">Home</a>
-          <a href="#recommended" class="font-bold text-md text-primary">Recommended</a>
-          <a href="#featuredStays" class="font-bold text-md text-primary">Featured Stays</a>
-          <a href="#faqs" class="font-bold text-md text-primary">FAQS</a>
-          <a href="#aboutUs" class="font-bold text-md text-primary">About us</a>
+          <a href="#home" class="font-bold text-md text-primary dark:text-white">Home</a>
+          <a href="#recommended" class="font-bold text-md text-primary dark:text-white">Recommended</a>
+          <a href="#featuredStays" class="font-bold text-md text-primary dark:text-white">Featured Stays</a>
+          <a href="#faqs" class="font-bold text-md text-primary dark:text-white">FAQS</a>
+          <a href="#aboutUs" class="font-bold text-md text-primary dark:text-white">About us</a>
         </div>
-        <div class="flex space-x-2">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-primary">
+        <div class="flex space-x-5">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 hover:text-primary text-gray-200 dark:text-gray-200">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
           </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 fill-current text-gray-200">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 fill-current hover:text-primary text-gray-200 dark:text-gray-200">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
           </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 fill-current text-gray-200">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 fill-current hover:text-primary text-gray-200 dark:text-gray-200">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
           </svg>
         </div>
@@ -54,8 +54,8 @@
               </div>
               <button class="w-48 rounded-full text-xl text-primary shadow-sm font-semibold p-4 bg-white transition-all duration-300 ease-in-out hover:bg-primary hover:text-white hover:-translate-y-1 hover:scale-100 lg:ml-16">Explore</button>
             </div>
-            <div class="w-full h-full lg:h-[38rem] lg:bg-parisDesktop lg:bg-cover lg:bg-top">
-              <img class="lg:hidden" src="./img/paris.jpg" alt="" />
+            <div class="w-full h-full lg:h-[38rem] lg:bg-rioDeJaneiroDesktop lg:bg-cover lg:bg-center">
+              <img class="lg:hidden" src="./img/rio-de-janeiro.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -63,10 +63,10 @@
           <p class="text-3xl font-semibold text-primary">Recommended</p>
           <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 ">
             <div class="card">
-              <div class="bg-bali"></div>
+              <div class="bg-rome"></div>
               <div class="bg-secondary">
-                <p class="text-white">Bali</p>
-                <p class="text-white">Tropical paradise in Bali</p>
+                <p class="text-white">Rome</p>
+                <p class="text-white">Living history in Eternal Rome</p>
               </div>
             </div>
             <div class="card">
@@ -84,10 +84,45 @@
               </div>
             </div>
             <div class="card">
-              <div class="bg-capeTown"></div>
+              <div class="bg-paris"></div>
               <div class="bg-white">
-                <p class="text-tertiary">Cape Town</p>
-                <p class="text-tertiary">Adventures in Cape Town</p>
+                <p class="text-tertiary">Paris</p>
+                <p class="text-tertiary">Romance beneath the Eiffel Tower</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-kyoto"></div>
+              <div class="bg-secondary">
+                <p class="text-white">Kyoto</p>
+                <p class="text-white">Tranquil Japanese beauty in Kyoto</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-machuPicchu"></div>
+              <div class="bg-white">
+                <p class="text-tertiary">Machu Picchu</p>
+                <p class="text-tertiary">Explore the Incan ruins</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-istanbul"></div>
+              <div class="bg-secondary">
+                <p class="text-white">Instanbul</p>
+                <p class="text-white">Oriental charm of Istanbul</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-prague"></div>
+              <div class="bg-white">
+                <p class="text-tertiary">Prague</p>
+                <p class="text-tertiary">Medieval magic in Prague</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="bg-sydney"></div>
+              <div class="bg-secondary">
+                <p class="text-white">Sydney</p>
+                <p class="text-white">Sydney, where the sun always shines</p>
               </div>
             </div>
           </div>
@@ -95,14 +130,14 @@
         <div id="featuredStays" class="px-6 h-full w-full">
           <p class="text-3xl text-primary font-semibold pb-6 mt-6">Featured Stays</p>
           <div class="w-full h-full flex flex-col space-y-4 items-center justify-center mt-6">
-            <div class="featured-stay__card bg-kyoto lg:h-[38rem]">
-              <p class="text-white">Kyoto</p>
-              <p class="text-white">1 room with a view, tatami flooring, a tea ceremony room, and more.</p>
+            <div class="featured-stay__card bg-newYork lg:h-[38rem]">
+              <p class="text-white">New York</p>
+              <p class="text-white">1 bedroom apartment in Manhattan</p>
             </div>
             <div class="w-full h-full grid grid-cols-1 lg:grid-cols-5 lg:grid-rows-2 lg:place-items-center lg:place-content-stretch gap-4">
               <div class="featured-stay__card bg-mexicoCity lg:row-span-2 lg:col-span-2 lg:h-[49rem]">
                 <p>Mexico City</p>
-                <p>2 rooms, bathroom & kitchen</p>
+                <p>Charming Mexican getaway: 2 rooms in historic area</p>
               </div>
               <div class="featured-stay__card bg-venice lg:row-span-1 lg:col-span-3">
                 <p class="text-white">Venice</p>

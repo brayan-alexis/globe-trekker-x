@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   content: ['./public/index.html', './src/**/*.{html,js}'],
   theme: {
     extend: {
@@ -21,9 +21,9 @@ module.exports = {
         'mexicoCity': "url('/public/img/mexico-city.jpg')",
         'newYork': "url('/public/img/new-york.jpg')",
         'paris': "url('/public/img/paris.jpg')",
-        'parisDesktop': "url('/public/img/parisDesktop.jpg')",
         'prague': "url('/public/img/prague.jpg')",
         'rioDeJaneiro': "url('/public/img/rio-de-janeiro.jpg')",
+        'rioDeJaneiroDesktop': "url('/public/img/rio-de-janeiro-desktop.jpg')",
         'rome': "url('/public/img/rome.jpg')",
         'santorini': "url('/public/img/santorini.jpg')",
         'sydney': "url('/public/img/sydney.jpg')",

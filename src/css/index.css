@@ -20,7 +20,7 @@
   }
 
   .featured-stay__card {
-    @apply w-full h-96 bg-cover rounded-xl lg:text-start lg:bg-center lg:pt-12;
+    @apply w-full h-96 bg-cover rounded-xl lg:text-right lg:bg-center lg:pt-12;
   }
   .featured-stay__card > p:first-child {
     @apply text-3xl px-8 pt-8 pb-2 font-semibold;

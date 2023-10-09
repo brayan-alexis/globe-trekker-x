@@ -598,7 +598,7 @@ video {
   .featured-stay__card {
     background-position: center;
     padding-top: 3rem;
-    text-align: start;
+    text-align: right;
   }
 }
 
@@ -743,10 +743,10 @@ video {
   gap: 1rem;
 }
 
-.space-x-2 > :not([hidden]) ~ :not([hidden]) {
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -818,12 +818,12 @@ video {
   background-image: url('/public/img/cape-town.jpg');
 }
 
-.bg-kyoto {
-  background-image: url('/public/img/kyoto.jpg');
-}
-
 .bg-mexicoCity {
   background-image: url('/public/img/mexico-city.jpg');
+}
+
+.bg-newYork {
+  background-image: url('/public/img/new-york.jpg');
 }
 
 .bg-santorini {
@@ -832,6 +832,34 @@ video {
 
 .bg-venice {
   background-image: url('/public/img/venice.jpg');
+}
+
+.bg-prague {
+  background-image: url('/public/img/prague.jpg');
+}
+
+.bg-rome {
+  background-image: url('/public/img/rome.jpg');
+}
+
+.bg-paris {
+  background-image: url('/public/img/paris.jpg');
+}
+
+.bg-machuPicchu {
+  background-image: url('/public/img/machu-picchu.jpg');
+}
+
+.bg-kyoto {
+  background-image: url('/public/img/kyoto.jpg');
+}
+
+.bg-sydney {
+  background-image: url('/public/img/sydney.jpg');
+}
+
+.bg-istanbul {
+  background-image: url('/public/img/istanbul.jpg');
 }
 
 .fill-current {
@@ -1023,6 +1051,11 @@ video {
   background-color: rgb(54 47 217 / var(--tw-bg-opacity));
 }
 
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(54 47 217 / var(--tw-text-opacity));
+}
+
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1036,6 +1069,26 @@ video {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+:is(.dark .dark\:bg-gray-800) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:bg-gray-900) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+:is(.dark .dark\:text-gray-200) {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+:is(.dark .dark\:text-white) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -1109,16 +1162,16 @@ video {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
-  .lg\:bg-parisDesktop {
-    background-image: url('/public/img/parisDesktop.jpg');
+  .lg\:bg-rioDeJaneiroDesktop {
+    background-image: url('/public/img/rio-de-janeiro-desktop.jpg');
   }
 
   .lg\:bg-cover {
     background-size: cover;
   }
 
-  .lg\:bg-top {
-    background-position: top;
+  .lg\:bg-center {
+    background-position: center;
   }
 
   .lg\:pt-64 {
