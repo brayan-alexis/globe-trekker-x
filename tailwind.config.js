@@ -21,6 +21,7 @@ module.exports = {
         'mexicoCity': "url('/public/img/mexico-city.jpg')",
         'newYork': "url('/public/img/new-york.jpg')",
         'paris': "url('/public/img/paris.jpg')",
+        'parisDesktop': "url('/public/img/parisDesktop.jpg')",
         'prague': "url('/public/img/prague.jpg')",
         'rioDeJaneiro': "url('/public/img/rio-de-janeiro.jpg')",
         'rome': "url('/public/img/rome.jpg')",

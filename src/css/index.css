@@ -20,13 +20,13 @@
   }
 
   .featured-stay__card {
-    @apply w-full h-96 bg-cover rounded-xl;
+    @apply w-full h-96 bg-cover rounded-xl lg:text-start lg:bg-center lg:pt-12;
   }
   .featured-stay__card > p:first-child {
     @apply text-3xl px-8 pt-8 pb-2 font-semibold;
   }
   .featured-stay__card > p:nth-child(2) {
-    @apply text-sm pl-8 mr-24;
+    @apply text-sm pl-8 mr-24 lg:mr-8 lg:text-base;
   }
 
 }
