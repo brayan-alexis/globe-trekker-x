@@ -18,6 +18,12 @@
   .card > div:nth-child(2) > p:nth-child(2) {
     @apply text-base;
   }
+  .card:nth-child(odd) {
+    @apply bg-secondary text-white dark:bg-gray-700 dark:text-gray-200;
+  }
+  .card:nth-child(even) {
+    @apply bg-white text-tertiary dark:bg-gray-800 dark:text-white;
+  }
 
   .featured-stay__card {
     @apply w-full h-96 bg-cover rounded-xl lg:text-right lg:bg-center lg:pt-12;
