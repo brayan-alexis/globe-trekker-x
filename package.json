@@ -76,7 +76,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "tw:build": "tailwindcss -i ./src/css/index.css -o ./public/css/index.css --watch"
+    "tw:build": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --minify",
+    "tw:dev": "npx tailwindcss -i ./src/css/index.css -o ./public/css/index.css --watch"
   },
   "repository": {
     "type": "git",
